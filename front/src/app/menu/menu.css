@@ -1,0 +1,31 @@
+/* HospitalReservationPage.css */
+
+.layout {
+  min-height: 100vh;
+}
+
+.site-layout-content {
+  background: #f0f2f5; /* 背景色 */
+  padding: 24px;
+  min-height: 280px;
+}
+
+/* スタイリングメニューカード */
+.service-card {
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff; /* カードの背景色 */
+  border: 1px solid #0099cc; /* カードのボーダーカラー（青緑） */
+}
+
+/* 予約ボタンのスタイル */
+.ant-btn-primary {
+  background-color: #0099cc; /* ボタンの背景色（青緑） */
+  border-color: #0099cc; /* ボタンのボーダーカラー（青緑） */
+  color: #fff; /* ボタンのテキスト色 */
+}
+
+.ant-btn-primary:hover {
+  background-color: #006688; /* ホバー時の背景色（濃い青緑） */
+  border-color: #006688; /* ホバー時のボーダーカラー（濃い青緑） */
+}

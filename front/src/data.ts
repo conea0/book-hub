@@ -20,3 +20,39 @@ export const servicesData = [
       image: '/images/internal_medicine.jpg',
     },
   ];
+
+  export const hospitalData = [
+    {
+      id: 1,
+      title: '病院01',
+      image: '/images/hospital01.jpg',
+      description: '病院01の説明',
+      address: '東京都新宿区',
+      phone: '03-1234-5678',
+    },
+    {
+      id: 2,
+      title: '病院02',
+      image: '/images/hospital02.jpg',
+      description: '病院02の説明',
+      address: '東京都渋谷区',
+      phone: '03-1234-5678',
+    },
+    {
+      id: 3,
+      title: '病院03',
+      image: '/images/hospital03.jpg',
+      description: '病院03の説明',
+      address: '東京都豊島区',
+      phone: '03-1234-5678',
+    },
+    {
+      id: 4,
+      title: '病院04',
+      image: '/images/hospital04.jpg',
+      description: '病院04の説明',
+      address: '東京都千代田区',
+      phone: '03-1234-5678',
+    }
+    }
+ ];

@@ -54,5 +54,4 @@ export const servicesData = [
       address: '東京都千代田区',
       phone: '03-1234-5678',
     }
-    }
  ];

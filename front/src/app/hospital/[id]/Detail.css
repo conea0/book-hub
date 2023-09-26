@@ -1,0 +1,21 @@
+/* styles.css */
+.hospital-card {
+    margin-bottom: 20px; /* カード間の余白を追加 */
+  }
+  
+  .hospital-description h3 {
+    font-size: 18px; /* 詳細情報の見出しのフォントサイズを調整 */
+    color: #1890ff; /* リンクカラーをAnt Designのテーマカラーに合わせる */
+  }
+  
+  .hospital-contact h3 {
+    font-size: 18px; /* お問い合わせの見出しのフォントサイズを調整 */
+    color: #1890ff; /* リンクカラーをAnt Designのテーマカラーに合わせる */
+  }
+  
+  .hospital-action {
+    margin-top: 16px; /* 予約ボタンとコンテンツの間に余白を追加 */
+  }
+  
+  /* 予約ボタンのスタイルはReservationButtonコンポーネント内で定義 */
+  

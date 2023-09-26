@@ -1,12 +1,14 @@
 'use client';
 import React from 'react';
-import { Layout, Menu, Breadcrumb, Card, Button, Row, Col } from 'antd';
+import { Layout, Menu, Breadcrumb, Card,Row, Col } from 'antd';
 import './menu.css';
-import { servicesData } from '@/data';
+import { hospitalData } from '@/data';
+import DetailButton from '../hospital/DetailButton';
+
 
 const { Header, Content, Footer } = Layout;
 
-const HospitalReservationPage = () => {
+const HospitalDetailPage = () => {
   return (
     <Layout className="layout">
       <Header>
@@ -25,15 +27,15 @@ const HospitalReservationPage = () => {
         <div className="site-layout-content">
           <h1>予約</h1>
           <Row gutter={[16, 16]}>
-            {servicesData.map((item, index) => (
+            {hospitalData.map((item, index) => (
               <Col span={8} key={index}>
                 <Card
                   className="service-card"
-                  cover={<img alt={item.title} src={item.image} />}
+                  cover={<img alt={item.name} src={item.image} />}
                 >
-                  <h3>{item.title}</h3>
+                  <h3>{item.name}</h3>
                   <p>{item.description}</p>
-                  <Button type="primary">予約する</Button>
+                  <DetailButton hospitalId={String(item.id)} />
                 </Card>
               </Col>
             ))}
@@ -45,4 +47,4 @@ const HospitalReservationPage = () => {
   );
 }
 
-export default HospitalReservationPage;
+export default HospitalDetailPage;

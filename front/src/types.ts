@@ -2,7 +2,7 @@
 
 export interface AppointmentData {
     key: number;
-    time: string;
+    date: string;
     sunday: string;
     monday: string;
     tuesday: string;

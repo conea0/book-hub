@@ -8,6 +8,7 @@ import Calendar from '@/app/calendar/calender';
 interface HospitalData {
   id: number;
   name: string;
+  kind: string;
   address: string;
   image: string;
   description: string;
@@ -20,9 +21,10 @@ interface HospitalDetailProps {
 
 function HospitalDetail({ hospitalData }: HospitalDetailProps) {
   return (
-    <div className="hospital-detail">
+    <div>
       <div className="hospital-header">
         <h1>{hospitalData.name}</h1>
+        <h2>{hospitalData.kind}</h2>
         <p>{hospitalData.address}</p>
       </div>
       <Row gutter={[16, 16]}>

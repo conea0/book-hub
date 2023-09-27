@@ -1,0 +1,48 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* 画面の高さいっぱいにコンテナを表示 */
+  background-color: #f0f2f5; /* バックグラウンドカラーを設定 */
+}
+
+.login-form {
+  width: 400px;
+  padding: 20px;
+  background-color: #ffffff; /* フォームの背景色 */
+  border-radius: 10px; /* 角丸 */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* 影の設定 */
+}
+
+.login-form h2 {
+  text-align: center;
+  color: #1890ff; /* タイトルの色 */
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.login-button {
+  width: 100%;
+  background-color: #1890ff; /* ボタンの背景色 */
+  border-color: #1890ff; /* ボーダーカラー */
+  color: #ffffff; /* ボタンのテキスト色 */
+  border-radius: 5px; /* ボタンの角丸 */
+}
+
+
+.login-button:hover {
+  background-color: #036abf; /* ホバー時の背景色 */
+  border-color: #45a9fb; /* ホバー時のボーダーカラー */
+}
+
+.additional-options button {
+  font-size: 14px;
+  text-align: right;
+  color: #1890ff; /* リンクの色 */
+  
+}
+
+.create-account {
+  margin-top: 10px;
+  text-align: right;
+}

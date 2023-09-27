@@ -1,0 +1,42 @@
+/* HospitalReservationPage.css */
+
+.layout {
+  min-height: 100vh;
+}
+.h1{
+  text-align: left;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-style: normal;
+}
+.site-layout-content {
+  background: #e7edf8; /* 背景色 */
+  padding: 5px;
+  min-height: 500px;
+  box-shadow: 0 100px 20px rgba(1, 1, 1, 1);
+}
+
+/* スタイリングメニューカード */
+.service-card {
+  border-radius: 10px;
+  margin-left: auto;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+  background-color: #fff; /* カードの背景色 */
+  border: 1px solid #0099cc; /* カードのボーダーカラー（青緑） */
+  margin: 10px;
+}
+
+/* 詳細ボタンのスタイル */
+.ant-btn-primary {
+  background-color: #0887fe; /* ボタンの背景色（青緑） */
+  border-color: #7ab4c8; /* ボタンのボーダーカラー（青緑） */
+  color: #fffefe; /* ボタンのテキスト色 */
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.ant-btn-primary:hover {
+  background-color: #006688; /* ホバー時の背景色（濃い青緑） */
+  border-color: #006688; /* ホバー時のボーダーカラー（濃い青緑） */
+}

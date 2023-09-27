@@ -10,5 +10,15 @@ export interface AppointmentData {
     thursday: string;
     friday: string;
     saturday: string;
-  }
+}
+
+export interface hospital{
+    id: number,
+    name: string,
+    kind: string,
+    address: string,
+    image: string,
+    description: string,
+    phone: string,
+}
   
